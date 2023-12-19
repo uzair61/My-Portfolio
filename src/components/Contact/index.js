@@ -7,7 +7,7 @@ import { useState } from 'react'
 
 const Contact = () => {
 
-    const [letterClass, setLetterClass] = useState('text-animate')
+    const [letterClass] = useState('text-animate')
     const refform = useRef()
 
     const sendEmail = (e) => {
